@@ -47,7 +47,7 @@ void interrupt(){
      TStack[TaskNumber][0]= TOSL;
      TStack[TaskNumber][1]=TOSH;
      TStack[TaskNumber][2]=TOSU;
-     asm POP          // empty TOS
+     asm POP          // empty TOS -top of stack-
      ///
      TaskNumber++;
      if(TaskNumber>numOfTasks-1)TaskNumber=0;
@@ -56,7 +56,7 @@ void interrupt(){
      TOSL=Temp;
      Temp=TStack[TaskNumber][1]; 
      TOSH=Temp;
-     Temp=TStack[TaskNumber][2]; 
+     Temp=TStack[TaskNumber][2];   
      TOSU=Temp;
      /////
      Temp=SavedRegs[TaskNumber][1] ;
