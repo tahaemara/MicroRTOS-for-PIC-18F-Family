@@ -13,8 +13,9 @@ and also provides inter-task communication through flags -common variables- only
 See this video to know how to use this project with mikroC :
 https://www.youtube.com/watch?v=hYynOanPZWU
 
-Compiler: mikroc PRO for PIC
-Micorcontroller : PIC 18F4550 * Note " you can easily port this project to any other PICs of 18F family"          Clock: 8MHz
+Compiler: mikroc PRO for PIC 
+Micorcontroller : PIC 18F4550 * Note " you can easily port this project to any other PICs of 18F family"                     
+Clock: 8MHz
 
 Version: 1.00 - Initial release.
 
