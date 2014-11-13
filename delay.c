@@ -2,7 +2,7 @@
 unsigned int cflag;
 unsigned int cycles=40000;   //this number will be exact when using 8 mhz and  1 ms interrupt
 //////////////////////////////////////////////////////////////////////
-                ///// TASK1 STOP FLASHING ///////
+                ///// Delay function //////////
 unsigned char systemDelay(unsigned short seconds){
    while(seconds>0){
    --seconds;
